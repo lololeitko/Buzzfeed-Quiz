@@ -11,17 +11,23 @@ h1 {
 }
 
 h2 {
-  margin-top: 2em; 
+  margin-top: 2em;
 }
 
 .question {
   display: flex;
   margin-top: 2em;
 }
-  
+
 .answer-choice img {
   height: 10em;
 }
-body{
-  text-align: center
+body {
+  text-align: center;
+}
+img {
+  align: center;
+}
+button {
+  align: center;
 }
