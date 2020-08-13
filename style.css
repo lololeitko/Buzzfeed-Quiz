@@ -1,5 +1,5 @@
 /* CSS files add styling rules to your content */
-button{
+button {
   background-color: #71d6f5;
 }
 body {
@@ -10,8 +10,6 @@ body {
 h1 {
   font-style: bold;
   color: black;
-  
-  
 }
 
 h2 {
@@ -28,14 +26,14 @@ h2 {
 }
 body {
   text-align: center;
-  background: linear-gradient(Red, Orange, Yellow)
+  background: linear-gradient(Red, Orange, Yellow);
 }
 img {
   align: center;
 }
 button {
   align: center;
-   border-radius: 28px;
+  border-radius: 28px;
 }
 
 button:hover {
