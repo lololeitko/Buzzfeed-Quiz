@@ -1,5 +1,7 @@
 /* CSS files add styling rules to your content */
-
+button{
+  background-color: #71d6f5;
+}
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
@@ -30,4 +32,10 @@ img {
 }
 button {
   align: center;
+}
+
+button:hover {
+  color: #71d6f5;
+  border-color: currentColor;
+  background-color: black;
 }
