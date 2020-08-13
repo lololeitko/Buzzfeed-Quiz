@@ -59,7 +59,59 @@ q1a2.addEventListener("click", INFP);
 q1a2.addEventListener("click", INTJ);
 q1a2.addEventListener("click", INTJ);
 
+q1a3.addEventListener("click", ESTJ);
+q1a3.addEventListener("click", ESTP);
+q1a3.addEventListener("click", ESFJ);
+q1a3.addEventListener("click", ESFP);
+q1a3.addEventListener("click", ENFJ);
+q1a3.addEventListener("click", ENFP);
+q1a3.addEventListener("click", ENTJ);
+q1a3.addEventListener("click", ENTJ);
 
+q1a4.addEventListener("click", ESTJ);
+q1a4.addEventListener("click", ESTP);
+q1a4.addEventListener("click", ESFJ);
+q1a4.addEventListener("click", ESFP);
+q1a4.addEventListener("click", ENFJ);
+q1a4.addEventListener("click", ENFP);
+q1a4.addEventListener("click", ENTJ);
+q1a4.addEventListener("click", ENTJ);
+
+q2a1.addEventListener("click", ISTJ);
+q2a1.addEventListener("click", ISTP);
+q2a1.addEventListener("click", ISFJ);
+q2a1.addEventListener("click", ISFP);
+q2a1.addEventListener("click", ESFJ);
+q2a1.addEventListener("click", ESFP);
+q2a1.addEventListener("click", ESTJ);
+q2a1.addEventListener("click", ESTJ);
+
+q2a2.addEventListener("click", ISTJ);
+q2a2.addEventListener("click", ISTP);
+q2a2.addEventListener("click", ISFJ);
+q2a2.addEventListener("click", ISFP);
+q2a2.addEventListener("click", ESFJ);
+q2a2.addEventListener("click", ESFP);
+q2a2.addEventListener("click", ESTJ);
+q2a2.addEventListener("click", ESTJ);
+
+q2a3.addEventListener("click", INTJ);
+q2a3.addEventListener("click", INTP);
+q2a3.addEventListener("click", INFJ);
+q2a3.addEventListener("click", INFP);
+q2a3.addEventListener("click", ENFJ);
+q2a3.addEventListener("click", ENFP);
+q2a3.addEventListener("click", ENTJ);
+q2a3.addEventListener("click", ENTJ);
+
+q2a4.addEventListener("click", INTJ);
+q2a4.addEventListener("click", INTP);
+q2a4.addEventListener("click", INFJ);
+q2a4.addEventListener("click", INFP);
+q2a4.addEventListener("click", ENFJ);
+q2a4.addEventListener("click", ENFP);
+q2a4.addEventListener("click", ENTJ);
+q2a4.addEventListener("click", ENTJ);
 
 //#TODO: Define quiz functions here
 function result1() {}
