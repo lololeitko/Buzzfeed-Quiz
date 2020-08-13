@@ -41,7 +41,25 @@ var q4a3 = document.getElementById("q4a3");
 var q4a4 = document.getElementById("q4a4");
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", result1);
+q1a1.addEventListener("click", ISTJ);
+q1a1.addEventListener("click", ISTP);
+q1a1.addEventListener("click", ISFJ);
+q1a1.addEventListener("click", ISFP);
+q1a1.addEventListener("click", INFJ);
+q1a1.addEventListener("click", INFP);
+q1a1.addEventListener("click", INTJ);
+q1a1.addEventListener("click", INTJ);
+
+q1a2.addEventListener("click", ISTJ);
+q1a2.addEventListener("click", ISTP);
+q1a2.addEventListener("click", ISFJ);
+q1a2.addEventListener("click", ISFP);
+q1a2.addEventListener("click", INFJ);
+q1a2.addEventListener("click", INFP);
+q1a2.addEventListener("click", INTJ);
+q1a2.addEventListener("click", INTJ);
+
+
 
 //#TODO: Define quiz functions here
 function result1() {}
