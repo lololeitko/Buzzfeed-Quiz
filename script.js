@@ -188,46 +188,46 @@ q4a4.addEventListener("click", ENTP);
 
 //#TODO: Define quiz functions here
 function updateResult() {
-  if (ISTJscore >= 4) {
-  } else if (ISTPscore >= 4) {
-     result.innerHTML = "ISTP!";
-  } else if (ISFJscore >= 4) {
+  if (ISTJscore >= 16) {
+  } else if (ISTPscore >= 16) {
+    result.innerHTML = "ISTP!";
+  } else if (ISFJscore >= 16) {
     result.innerHTML = "ISFJ!";
-  } else if (ISFPscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (INFPscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (INFJscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (INTJscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (INTPscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (ESTJscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (ESTPscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (ESFJscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (ESFPscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (ENFPscore >= 4) {
-  result.innerHTML = "ISTP!";
-  } else if (ENFJscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (ENTJscore >= 4) {
-    result.innerHTML = "ISTP!";
-  } else if (ENTPscore >= 4) {
-    result.innerHTML = "ISTP!";
+  } else if (ISFPscore >= 16) {
+    result.innerHTML = "ISFP!";
+  } else if (INFPscore >= 16) {
+    result.innerHTML = "INFP!";
+  } else if (INFJscore >= 16) {
+    result.innerHTML = "INFJ!";
+  } else if (INTJscore >= 16) {
+    result.innerHTML = "INTJ!";
+  } else if (INTPscore >= 16) {
+    result.innerHTML = "INTP!";
+  } else if (ESTJscore >= 16) {
+    result.innerHTML = "ESTJ!";
+  } else if (ESTPscore >= 16) {
+    result.innerHTML = "ESTP!";
+  } else if (ESFJscore >= 16) {
+    result.innerHTML = "ESFJ!";
+  } else if (ESFPscore >= 16) {
+    result.innerHTML = "ESFP!";
+  } else if (ENFPscore >= 16) {
+    result.innerHTML = "ENFP!";
+  } else if (ENFJscore >= 16) {
+    result.innerHTML = "ENFJ!";
+  } else if (ENTJscore >= 16) {
+    result.innerHTML = "ENTJ!";
+  } else if (ENTPscore >= 16) {
+    result.innerHTML = "ENTP!";
   } else {
-    result.innerHTML = "Hmm... !";
+    result.innerHTML = "Hmm... Your personality is confusing... Try again.";
   }
 }
 
 function ISTJ() {
   ISTJscore += 1;
   questionCount += 1;
-  alert("One point to ISTJ!");
+  //alert("One point to ISTJ!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -236,7 +236,7 @@ function ISTJ() {
 function ISTP() {
   ISTPscore += 1;
   questionCount += 1;
-  alert("One point to ISTP!");
+  //alert("One point to ISTP!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -245,7 +245,7 @@ function ISTP() {
 function ISFJ() {
   ISFJscore += 1;
   questionCount += 1;
-  alert("One point to ISFJ!");
+  //alert("One point to ISFJ!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -254,7 +254,7 @@ function ISFJ() {
 function ISFP() {
   ISFPscore += 1;
   questionCount += 1;
-  alert("One point to ISFP!");
+  // alert("One point to ISFP!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -263,7 +263,7 @@ function ISFP() {
 function INFP() {
   INFPscore += 1;
   questionCount += 1;
-  alert("One point to INFP!");
+  //alert("One point to INFP!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -272,7 +272,7 @@ function INFP() {
 function INFJ() {
   INFJscore += 1;
   questionCount += 1;
-  alert("One point to INFJ!");
+  //  alert("One point to INFJ!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -281,7 +281,7 @@ function INFJ() {
 function INTJ() {
   INTJscore += 1;
   questionCount += 1;
-  alert("One point to INTJ!");
+  // alert("One point to INTJ!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -290,7 +290,7 @@ function INTJ() {
 function INTP() {
   INTPscore += 1;
   questionCount += 1;
-  alert("One point to INTP!");
+  // alert("One point to INTP!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -299,7 +299,7 @@ function INTP() {
 function ESTJ() {
   ESTJscore += 1;
   questionCount += 1;
-  alert("One point to ESTJ!");
+  //alert("One point to ESTJ!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -308,7 +308,7 @@ function ESTJ() {
 function ESTP() {
   ESTPscore += 1;
   questionCount += 1;
-  alert("One point to ESTP!");
+  //alert("One point to ESTP!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -317,7 +317,7 @@ function ESTP() {
 function ESFJ() {
   ESFJscore += 1;
   questionCount += 1;
-  alert("One point to ESFJ!");
+  //alert("One point to ESFJ!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -326,7 +326,7 @@ function ESFJ() {
 function ESFP() {
   ESFPscore += 1;
   questionCount += 1;
-  alert("One point to ESFP!");
+  // alert("One point to ESFP!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -335,7 +335,7 @@ function ESFP() {
 function ENFP() {
   ENFPscore += 1;
   questionCount += 1;
-  alert("One point to ENFP!");
+  // alert("One point to ENFP!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -344,7 +344,7 @@ function ENFP() {
 function ENFJ() {
   ENFJscore += 1;
   questionCount += 1;
-  alert("One point to ENFJ!");
+  // alert("One point to ENFJ!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -353,8 +353,7 @@ function ENFJ() {
 function ENTJ() {
   ENTJscore += 1;
   questionCount += 1;
-  alert("One point to ENTJ!");
-
+  // alert("One point to ENTJ!");
   if (questionCount >= 16) {
     updateResult();
   }
@@ -363,7 +362,7 @@ function ENTJ() {
 function ENTP() {
   ENTPscore += 1;
   questionCount += 1;
-  alert("One point to ENTP!");
+  // alert("One point to ENTP!");
   if (questionCount >= 16) {
     updateResult();
   }
