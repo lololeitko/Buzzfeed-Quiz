@@ -131,5 +131,59 @@ q3a2.addEventListener("click", ESTP);
 q3a2.addEventListener("click", ENTJ);
 q3a2.addEventListener("click", ENTP);
 
+q3a3.addEventListener("click", ISFJ);
+q3a3.addEventListener("click", ISFP);
+q3a3.addEventListener("click", INFJ);
+q3a3.addEventListener("click", INFP);
+q3a3.addEventListener("click", ESFJ);
+q3a3.addEventListener("click", ESFP);
+q3a3.addEventListener("click", ENFJ);
+q3a3.addEventListener("click", ENFP);
+
+q3a4.addEventListener("click", ISFJ);
+q3a4.addEventListener("click", ISFP);
+q3a4.addEventListener("click", INFJ);
+q3a4.addEventListener("click", INFP);
+q3a4.addEventListener("click", ESFJ);
+q3a4.addEventListener("click", ESFP);
+q3a4.addEventListener("click", ENFJ);
+q3a4.addEventListener("click", ENFP);
+
+q4a1.addEventListener("click", ISFJ);
+q4a1.addEventListener("click", ISTJ);
+q4a1.addEventListener("click", INFJ);
+q4a1.addEventListener("click", INTJ);
+q4a1.addEventListener("click", ESFJ);
+q4a1.addEventListener("click", ESTJ);
+q4a1.addEventListener("click", ENFJ);
+q4a1.addEventListener("click", ENTJ);
+
+q4a2.addEventListener("click", ISFJ);
+q4a2.addEventListener("click", ISTJ);
+q4a2.addEventListener("click", INFJ);
+q4a2.addEventListener("click", INTJ);
+q4a2.addEventListener("click", ESFJ);
+q4a2.addEventListener("click", ESTJ);
+q4a2.addEventListener("click", ENFJ);
+q4a2.addEventListener("click", ENTJ);
+
+q4a3.addEventListener("click", ISFP);
+q4a3.addEventListener("click", ISTP);
+q4a3.addEventListener("click", INFP);
+q4a3.addEventListener("click", INTP);
+q4a3.addEventListener("click", ESFP);
+q4a3.addEventListener("click", ESTP);
+q4a3.addEventListener("click", ENFP);
+q4a3.addEventListener("click", ENTP);
+
+q4a4.addEventListener("click", ISFP);
+q4a4.addEventListener("click", ISTP);
+q4a4.addEventListener("click", INFP);
+q4a4.addEventListener("click", INTP);
+q4a4.addEventListener("click", ESFP);
+q4a4.addEventListener("click", ESTP);
+q4a4.addEventListener("click", ENFP);
+q4a4.addEventListener("click", ENTP);
+
 //#TODO: Define quiz functions here
 function result1() {}
