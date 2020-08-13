@@ -188,36 +188,36 @@ q4a4.addEventListener("click", ENTP);
 
 //#TODO: Define quiz functions here
 function updateResult() {
-  if (ISTJscore >= 16) {
-  } else if (ISTPscore >= 16) {
+  if (ISTJscore == 4) {
+  } else if (ISTPscore == 4) {
     result.innerHTML = "ISTP!";
-  } else if (ISFJscore >= 16) {
+  } else if (ISFJscore == 4) {
     result.innerHTML = "ISFJ!";
-  } else if (ISFPscore >= 16) {
+  } else if (ISFPscore == 4) {
     result.innerHTML = "ISFP!";
-  } else if (INFPscore >= 16) {
+  } else if (INFPscore == 4) {
     result.innerHTML = "INFP!";
-  } else if (INFJscore >= 16) {
+  } else if (INFJscore == 4) {
     result.innerHTML = "INFJ!";
-  } else if (INTJscore >= 16) {
+  } else if (INTJscore == 4) {
     result.innerHTML = "INTJ!";
-  } else if (INTPscore >= 16) {
+  } else if (INTPscore == 4) {
     result.innerHTML = "INTP!";
-  } else if (ESTJscore >= 16) {
+  } else if (ESTJscore == 4) {
     result.innerHTML = "ESTJ!";
-  } else if (ESTPscore >= 16) {
+  } else if (ESTPscore == 4) {
     result.innerHTML = "ESTP!";
-  } else if (ESFJscore >= 16) {
+  } else if (ESFJscore == 4) {
     result.innerHTML = "ESFJ!";
-  } else if (ESFPscore >= 16) {
+  } else if (ESFPscore == 4) {
     result.innerHTML = "ESFP!";
-  } else if (ENFPscore >= 16) {
+  } else if (ENFPscore == 4) {
     result.innerHTML = "ENFP!";
-  } else if (ENFJscore >= 16) {
+  } else if (ENFJscore == 4) {
     result.innerHTML = "ENFJ!";
-  } else if (ENTJscore >= 16) {
+  } else if (ENTJscore == 4) {
     result.innerHTML = "ENTJ!";
-  } else if (ENTPscore >= 16) {
+  } else if (ENTPscore == 4) {
     result.innerHTML = "ENTP!";
   } else {
     result.innerHTML = "Hmm... Your personality is confusing... Try again.";
