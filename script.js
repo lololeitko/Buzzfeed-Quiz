@@ -188,7 +188,40 @@ q4a4.addEventListener("click", ENTP);
 
 //#TODO: Define quiz functions here
 function updateResult() {
-  
+  if (ISTJscore >= 4) {
+  } else if (ISTPscore >= 4) {
+     result.innerHTML = "ISTP!";
+  } else if (ISFJscore >= 4) {
+    result.innerHTML = "ISFJ!";
+  } else if (ISFPscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (INFPscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (INFJscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (INTJscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (INTPscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (ESTJscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (ESTPscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (ESFJscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (ESFPscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (ENFPscore >= 4) {
+  result.innerHTML = "ISTP!";
+  } else if (ENFJscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (ENTJscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else if (ENTPscore >= 4) {
+    result.innerHTML = "ISTP!";
+  } else {
+    result.innerHTML = "Hmm... !";
+  }
 }
 
 function ISTJ() {
