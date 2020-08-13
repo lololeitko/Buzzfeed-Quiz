@@ -2,22 +2,11 @@
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
-var ISTJscore = 0;
-var ISTPscore = 0;
-var ISFJscore = 0;
-var ISFPscore = 0;
-var INFPscore = 0;
-var INFJscore = 0;
-var INTJscore = 0;
-var INTPscore = 0;
-var ESTJscore = 0;
-var ESTPscore = 0;
-var ESFJscore = 0;
-var ESFPscore = 0;
-var ENFPscore = 0;
-var ENFJscore = 0;
-var ENTJscore = 0;
-var ENTPscore = 0;
+var PopScore = 0;
+var RockScore = 0;
+var CountryScore = 0;
+var JazzScore = 0;
+
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
@@ -34,54 +23,18 @@ var q3a1 = document.getElementById("q3a1");
 var q3a2 = document.getElementById("q3a2");
 var q3a3 = document.getElementById("q3a3");
 var q3a4 = document.getElementById("q3a4");
-
-var q4a1 = document.getElementById("q4a1");
-var q4a2 = document.getElementById("q4a2");
-var q4a3 = document.getElementById("q4a3");
-var q4a4 = document.getElementById("q4a4");
  
 var result = document.getElementById("result");
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", ISTJ);
-q1a1.addEventListener("click", ISTP);
-q1a1.addEventListener("click", ISFJ);
-q1a1.addEventListener("click", ISFP);
-q1a1.addEventListener("click", INFJ);
-q1a1.addEventListener("click", INFP);
-q1a1.addEventListener("click", INTJ);
-q1a1.addEventListener("click", INTJ);
-
 q1a2.addEventListener("click", ISTJ);
-q1a2.addEventListener("click", ISTP);
-q1a2.addEventListener("click", ISFJ);
-q1a2.addEventListener("click", ISFP);
-q1a2.addEventListener("click", INFJ);
-q1a2.addEventListener("click", INFP);
-q1a2.addEventListener("click", INTJ);
-q1a2.addEventListener("click", INTJ);
-
 q1a3.addEventListener("click", ESTJ);
-q1a3.addEventListener("click", ESTP);
-q1a3.addEventListener("click", ESFJ);
-q1a3.addEventListener("click", ESFP);
-q1a3.addEventListener("click", ENFJ);
-q1a3.addEventListener("click", ENFP);
-q1a3.addEventListener("click", ENTJ);
-q1a3.addEventListener("click", ENTJ);
-
-q1a4.addEventListener("click", ESTJ);
-q1a4.addEventListener("click", ESTP);
-q1a4.addEventListener("click", ESFJ);
-q1a4.addEventListener("click", ESFP);
-q1a4.addEventListener("click", ENFJ);
-q1a4.addEventListener("click", ENFP);
-q1a4.addEventListener("click", ENTJ);
 q1a4.addEventListener("click", ENTJ);
 
 q2a1.addEventListener("click", ISTJ);
-q2a1.addEventListener("click", ISTP);
-q2a1.addEventListener("click", ISFJ);
-q2a1.addEventListener("click", ISFP);
+q2a2.addEventListener("click", ISTP);
+q2a3.addEventListener("click", ISFJ);
+q2a4.addEventListener("click", ISFP);
 q2a1.addEventListener("click", ESFJ);
 q2a1.addEventListener("click", ESFP);
 q2a1.addEventListener("click", ESTJ);
