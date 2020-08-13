@@ -26,297 +26,71 @@ var q3a4 = document.getElementById("q3a4");
  
 var result = document.getElementById("result");
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", ISTJ);
-q1a2.addEventListener("click", ISTJ);
-q1a3.addEventListener("click", ESTJ);
-q1a4.addEventListener("click", ENTJ);
+q1a1.addEventListener("click", Rock);
+q1a2.addEventListener("click", Country);
+q1a3.addEventListener("click", Pop);
+q1a4.addEventListener("click", Jazz);
 
-q2a1.addEventListener("click", ISTJ);
-q2a2.addEventListener("click", ISTP);
-q2a3.addEventListener("click", ISFJ);
-q2a4.addEventListener("click", ISFP);
-q2a1.addEventListener("click", ESFJ);
-q2a1.addEventListener("click", ESFP);
-q2a1.addEventListener("click", ESTJ);
-q2a1.addEventListener("click", ESTJ);
+q2a1.addEventListener("click", Rock);
+q2a2.addEventListener("click", Pop);
+q2a3.addEventListener("click", Jazz);
+q2a4.addEventListener("click", Country);
 
-q2a2.addEventListener("click", ISTJ);
-q2a2.addEventListener("click", ISTP);
-q2a2.addEventListener("click", ISFJ);
-q2a2.addEventListener("click", ISFP);
-q2a2.addEventListener("click", ESFJ);
-q2a2.addEventListener("click", ESFP);
-q2a2.addEventListener("click", ESTJ);
-q2a2.addEventListener("click", ESTJ);
 
-q2a3.addEventListener("click", INTJ);
-q2a3.addEventListener("click", INTP);
-q2a3.addEventListener("click", INFJ);
-q2a3.addEventListener("click", INFP);
-q2a3.addEventListener("click", ENFJ);
-q2a3.addEventListener("click", ENFP);
-q2a3.addEventListener("click", ENTJ);
-q2a3.addEventListener("click", ENTJ);
-
-q2a4.addEventListener("click", INTJ);
-q2a4.addEventListener("click", INTP);
-q2a4.addEventListener("click", INFJ);
-q2a4.addEventListener("click", INFP);
-q2a4.addEventListener("click", ENFJ);
-q2a4.addEventListener("click", ENFP);
-q2a4.addEventListener("click", ENTJ);
-q2a4.addEventListener("click", ENTJ);
-
-q3a1.addEventListener("click", ISTJ);
-q3a1.addEventListener("click", ISTP);
-q3a1.addEventListener("click", INTJ);
-q3a1.addEventListener("click", INTP);
-q3a1.addEventListener("click", ESTJ);
-q3a1.addEventListener("click", ESTP);
-q3a1.addEventListener("click", ENTJ);
-q3a1.addEventListener("click", ENTP);
-
-q3a2.addEventListener("click", ISTJ);
-q3a2.addEventListener("click", ISTP);
-q3a2.addEventListener("click", INTJ);
-q3a2.addEventListener("click", INTP);
-q3a2.addEventListener("click", ESTJ);
-q3a2.addEventListener("click", ESTP);
-q3a2.addEventListener("click", ENTJ);
-q3a2.addEventListener("click", ENTP);
-
-q3a3.addEventListener("click", ISFJ);
-q3a3.addEventListener("click", ISFP);
-q3a3.addEventListener("click", INFJ);
-q3a3.addEventListener("click", INFP);
-q3a3.addEventListener("click", ESFJ);
-q3a3.addEventListener("click", ESFP);
-q3a3.addEventListener("click", ENFJ);
-q3a3.addEventListener("click", ENFP);
-
-q3a4.addEventListener("click", ISFJ);
-q3a4.addEventListener("click", ISFP);
-q3a4.addEventListener("click", INFJ);
-q3a4.addEventListener("click", INFP);
-q3a4.addEventListener("click", ESFJ);
-q3a4.addEventListener("click", ESFP);
-q3a4.addEventListener("click", ENFJ);
-q3a4.addEventListener("click", ENFP);
-
-q4a1.addEventListener("click", ISFJ);
-q4a1.addEventListener("click", ISTJ);
-q4a1.addEventListener("click", INFJ);
-q4a1.addEventListener("click", INTJ);
-q4a1.addEventListener("click", ESFJ);
-q4a1.addEventListener("click", ESTJ);
-q4a1.addEventListener("click", ENFJ);
-q4a1.addEventListener("click", ENTJ);
-
-q4a2.addEventListener("click", ISFJ);
-q4a2.addEventListener("click", ISTJ);
-q4a2.addEventListener("click", INFJ);
-q4a2.addEventListener("click", INTJ);
-q4a2.addEventListener("click", ESFJ);
-q4a2.addEventListener("click", ESTJ);
-q4a2.addEventListener("click", ENFJ);
-q4a2.addEventListener("click", ENTJ);
-
-q4a3.addEventListener("click", ISFP);
-q4a3.addEventListener("click", ISTP);
-q4a3.addEventListener("click", INFP);
-q4a3.addEventListener("click", INTP);
-q4a3.addEventListener("click", ESFP);
-q4a3.addEventListener("click", ESTP);
-q4a3.addEventListener("click", ENFP);
-q4a3.addEventListener("click", ENTP);
-
-q4a4.addEventListener("click", ISFP);
-q4a4.addEventListener("click", ISTP);
-q4a4.addEventListener("click", INFP);
-q4a4.addEventListener("click", INTP);
-q4a4.addEventListener("click", ESFP);
-q4a4.addEventListener("click", ESTP);
-q4a4.addEventListener("click", ENFP);
-q4a4.addEventListener("click", ENTP);
+q3a1.addEventListener("click", Jazz);
+q3a2.addEventListener("click", Country);
+q3a3.addEventListener("click", Rock);
+q3a4.addEventListener("click", Pop);
 
 //#TODO: Define quiz functions here
 function updateResult() {
-  if (ISTJscore >= 3) {
-  } else if (ISTPscore >= 3) {
-    result.innerHTML = "ISTP!";
-  } else if (ISFJscore >= 3) {
-    result.innerHTML = "ISFJ!";
-  } else if (ISFPscore >= 3) {
-    result.innerHTML = "ISFP!";
-  } else if (INFPscore >= 3) {
-    result.innerHTML = "INFP!";
-  } else if (INFJscore >= 3) {
-    result.innerHTML = "INFJ!";
-  } else if (INTJscore >= 3) {
-    result.innerHTML = "INTJ!";
-  } else if (INTPscore >= 3) {
-    result.innerHTML = "INTP!";
-  } else if (ESTJscore >= 3) {
-    result.innerHTML = "ESTJ!";
-  } else if (ESTPscore >= 3) {
-    result.innerHTML = "ESTP!";
-  } else if (ESFJscore >= 3) {
-    result.innerHTML = "ESFJ!";
-  } else if (ESFPscore >= 3) {
-    result.innerHTML = "ESFP!";
-  } else if (ENFPscore >= 3) {
-    result.innerHTML = "ENFP!";
-  } else if (ENFJscore >= 3) {
-    result.innerHTML = "ENFJ!";
-  } else if (ENTJscore >= 3) {
-    result.innerHTML = "ENTJ!";
-  } else if (ENTPscore >= 3) {
-    result.innerHTML = "ENTP!";
+  if (PopScore >=2) {
+    result.innerHTML = "Pop!"
+  } else if (RockScore >= 2) {
+    result.innerHTML = "Rock!";
+  } else if (JazzScore >= 2) {
+    result.innerHTML = "Jazz";
+  }else if (CountryScore >= 2) {
+    result.innerHTML = "Country!";
+
   } else {
-    result.innerHTML = "Hmm... Your personality is confusing... Try again.";
+    result.innerHTML = "Hmm... Your taste in music is confusing... Try again.";
   }
 }
 
-function ISTJ() {
-  ISTJscore += 1;
+function Pop() {
+  PopScore += 1;
   questionCount += 1;
   //alert("One point to ISTJ!");
-  if (questionCount >= 16) {
+  if (questionCount >= 3) {
     updateResult();
   }
 }
 
-function ISTP() {
-  ISTPscore += 1;
+function Jazz() {
+  JazzScore += 1;
   questionCount += 1;
   //alert("One point to ISTP!");
-  if (questionCount >= 16) {
+  if (questionCount >= 3) {
     updateResult();
   }
 }
 
-function ISFJ() {
-  ISFJscore += 1;
+function Rock() {
+  RockScore += 1;
   questionCount += 1;
   //alert("One point to ISFJ!");
-  if (questionCount >= 16) {
+  if (questionCount >= 3) {
     updateResult();
   }
 }
 
-function ISFP() {
-  ISFPscore += 1;
+function Country() {
+  CountryScore += 1;
   questionCount += 1;
   // alert("One point to ISFP!");
-  if (questionCount >= 16) {
+  if (questionCount >= 3) {
     updateResult();
   }
 }
 
-function INFP() {
-  INFPscore += 1;
-  questionCount += 1;
-  //alert("One point to INFP!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function INFJ() {
-  INFJscore += 1;
-  questionCount += 1;
-  //  alert("One point to INFJ!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function INTJ() {
-  INTJscore += 1;
-  questionCount += 1;
-  // alert("One point to INTJ!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function INTP() {
-  INTPscore += 1;
-  questionCount += 1;
-  // alert("One point to INTP!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function ESTJ() {
-  ESTJscore += 1;
-  questionCount += 1;
-  //alert("One point to ESTJ!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function ESTP() {
-  ESTPscore += 1;
-  questionCount += 1;
-  //alert("One point to ESTP!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function ESFJ() {
-  ESFJscore += 1;
-  questionCount += 1;
-  //alert("One point to ESFJ!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function ESFP() {
-  ESFPscore += 1;
-  questionCount += 1;
-  // alert("One point to ESFP!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function ENFP() {
-  ENFPscore += 1;
-  questionCount += 1;
-  // alert("One point to ENFP!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function ENFJ() {
-  ENFJscore += 1;
-  questionCount += 1;
-  // alert("One point to ENFJ!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function ENTJ() {
-  ENTJscore += 1;
-  questionCount += 1;
-  // alert("One point to ENTJ!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
-
-function ENTP() {
-  ENTPscore += 1;
-  questionCount += 1;
-  // alert("One point to ENTP!");
-  if (questionCount >= 16) {
-    updateResult();
-  }
-}
