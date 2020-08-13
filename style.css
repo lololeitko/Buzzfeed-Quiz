@@ -26,12 +26,14 @@ h2 {
 }
 body {
   text-align: center;
+  background-img: url("https://cdn.glitch.com/566cf384-0feb-4aff-b4cf-a1802db583b6%2Fmusic.PNG?v=1597344517991");
 }
 img {
   align: center;
 }
 button {
   align: center;
+   border-radius: 28px;
 }
 
 button:hover {
