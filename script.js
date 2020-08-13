@@ -2,22 +2,22 @@
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
-var ISTJ = 0;
-var ISTP = 0;
-var ISFJ = 0;
-var ISFP = 0;
-var INFP = 0;
-var INFJ = 0;
-var INTJ = 0;
-var INTP = 0;
-var ESTJ = 0;
-var ESTP = 0;
-var ESFJ = 0;
-var ESFP = 0;
-var ENFP = 0;
-var ENFJ = 0;
-var ENTJ = 0;
-var ENTP = 0;
+var ISTJscore = 0;
+var ISTPscore = 0;
+var ISFJscore = 0;
+var ISFPscore = 0;
+var INFPscore = 0;
+var INFJscore = 0;
+var INTJscore = 0;
+var INTPscore = 0;
+var ESTJscore = 0;
+var ESTPscore = 0;
+var ESFJscore = 0;
+var ESFPscore = 0;
+var ENFPscore = 0;
+var ENFJscore = 0;
+var ENTJscore = 0;
+var ENTPscore = 0;
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
@@ -186,4 +186,8 @@ q4a4.addEventListener("click", ENFP);
 q4a4.addEventListener("click", ENTP);
 
 //#TODO: Define quiz functions here
-function result1() {}
+function ISTJ() {
+  ISTJscore += 1;
+  questionCount += 1;
+}
+
