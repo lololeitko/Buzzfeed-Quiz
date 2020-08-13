@@ -113,5 +113,23 @@ q2a4.addEventListener("click", ENFP);
 q2a4.addEventListener("click", ENTJ);
 q2a4.addEventListener("click", ENTJ);
 
+q3a1.addEventListener("click", ISTJ);
+q3a1.addEventListener("click", ISTP);
+q3a1.addEventListener("click", INTJ);
+q3a1.addEventListener("click", INTP);
+q3a1.addEventListener("click", ESTJ);
+q3a1.addEventListener("click", ESTP);
+q3a1.addEventListener("click", ENTJ);
+q3a1.addEventListener("click", ENTP);
+
+q3a2.addEventListener("click", ISTJ);
+q3a2.addEventListener("click", ISTP);
+q3a2.addEventListener("click", INTJ);
+q3a2.addEventListener("click", INTP);
+q3a2.addEventListener("click", ESTJ);
+q3a2.addEventListener("click", ESTP);
+q3a2.addEventListener("click", ENTJ);
+q3a2.addEventListener("click", ENTP);
+
 //#TODO: Define quiz functions here
 function result1() {}
