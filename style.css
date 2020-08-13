@@ -9,7 +9,9 @@ body {
 
 h1 {
   font-style: bold;
-  color: #373fff;
+  color: black;
+  
+  
 }
 
 h2 {
@@ -26,7 +28,7 @@ h2 {
 }
 body {
   text-align: center;
-  background-img: url("https://cdn.glitch.com/566cf384-0feb-4aff-b4cf-a1802db583b6%2Fmusic.PNG?v=1597344517991");
+  background: linear-gradient(Red, Orange, Yellow)
 }
 img {
   align: center;
