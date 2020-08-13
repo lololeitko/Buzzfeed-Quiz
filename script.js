@@ -189,5 +189,95 @@ q4a4.addEventListener("click", ENTP);
 function ISTJ() {
   ISTJscore += 1;
   questionCount += 1;
+  alert("One point to ISTJ!");
 }
 
+function ISTP() {
+  ISTPscore += 1;
+  questionCount += 1;
+  alert("One point to ISTP!");
+}
+
+function ISFJ() {
+  ISFJscore += 1;
+  questionCount += 1;
+  alert("One point to ISFJ!");
+}
+
+function ISFP() {
+  ISFPscore += 1;
+  questionCount += 1;
+  alert("One point to ISFP!");
+}
+
+function INFP() {
+  INFPscore += 1;
+  questionCount += 1;
+  alert("One point to INFP!");
+}
+
+function INFJ() {
+  INFJscore += 1;
+  questionCount += 1;
+  alert("One point to INFJ!");
+}
+
+function INTJ() {
+  INTJscore += 1;
+  questionCount += 1;
+  alert("One point to INTJ!");
+}
+
+function INTP() {
+  INTPscore += 1;
+  questionCount += 1;
+  alert("One point to INTP!");
+}
+
+function ESTJ() {
+  ESTJscore += 1;
+  questionCount += 1;
+  alert("One point to ESTJ!");
+}
+
+function ESTP() {
+  ESTPscore += 1;
+  questionCount += 1;
+  alert("One point to ESTP!");
+}
+
+function ESFJ() {
+  ESFJscore += 1;
+  questionCount += 1;
+  alert("One point to ESFJ!");
+}
+
+function ESFP() {
+  ESFPscore += 1;
+  questionCount += 1;
+  alert("One point to ESFP!");
+}
+
+function ENFP() {
+  ENFPscore += 1;
+  questionCount += 1;
+  alert("One point to ENFP!");
+}
+
+function ENFJ() {
+  ENFJscore += 1;
+  questionCount += 1;
+  alert("One point to ENFJ!");
+}
+
+function ENTJ() {
+  ENTJscore += 1;
+  questionCount += 1;
+  alert("One point to ENTJ!");
+}
+
+function ENTP() {
+  ENTPscore += 1;
+  questionCount += 1;
+  alert("One point to ENTP!");
+}
