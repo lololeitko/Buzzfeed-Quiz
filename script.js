@@ -40,6 +40,7 @@ var q4a2 = document.getElementById("q4a2");
 var q4a3 = document.getElementById("q4a3");
 var q4a4 = document.getElementById("q4a4");
 
+var result = document.getElementById("result");
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", ISTJ);
 q1a1.addEventListener("click", ISTP);
@@ -186,98 +187,151 @@ q4a4.addEventListener("click", ENFP);
 q4a4.addEventListener("click", ENTP);
 
 //#TODO: Define quiz functions here
+function updateResult() {
+  
+}
+
 function ISTJ() {
   ISTJscore += 1;
   questionCount += 1;
   alert("One point to ISTJ!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ISTP() {
   ISTPscore += 1;
   questionCount += 1;
   alert("One point to ISTP!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ISFJ() {
   ISFJscore += 1;
   questionCount += 1;
   alert("One point to ISFJ!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ISFP() {
   ISFPscore += 1;
   questionCount += 1;
   alert("One point to ISFP!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function INFP() {
   INFPscore += 1;
   questionCount += 1;
   alert("One point to INFP!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function INFJ() {
   INFJscore += 1;
   questionCount += 1;
   alert("One point to INFJ!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function INTJ() {
   INTJscore += 1;
   questionCount += 1;
   alert("One point to INTJ!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function INTP() {
   INTPscore += 1;
   questionCount += 1;
   alert("One point to INTP!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ESTJ() {
   ESTJscore += 1;
   questionCount += 1;
   alert("One point to ESTJ!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ESTP() {
   ESTPscore += 1;
   questionCount += 1;
   alert("One point to ESTP!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ESFJ() {
   ESFJscore += 1;
   questionCount += 1;
   alert("One point to ESFJ!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ESFP() {
   ESFPscore += 1;
   questionCount += 1;
   alert("One point to ESFP!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ENFP() {
   ENFPscore += 1;
   questionCount += 1;
   alert("One point to ENFP!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ENFJ() {
   ENFJscore += 1;
   questionCount += 1;
   alert("One point to ENFJ!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ENTJ() {
   ENTJscore += 1;
   questionCount += 1;
   alert("One point to ENTJ!");
+
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
 
 function ENTP() {
   ENTPscore += 1;
   questionCount += 1;
   alert("One point to ENTP!");
+  if (questionCount >= 16) {
+    updateResult();
+  }
 }
