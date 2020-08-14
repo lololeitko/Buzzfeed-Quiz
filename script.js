@@ -7,6 +7,9 @@ var RockScore = 0;
 var CountryScore = 0;
 var JazzScore = 0;
 
+var result = document.getElementById("result");
+var restart = document.getElementById("restart");
+
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
 var q1a2 = document.getElementById("q1a2");
@@ -38,7 +41,7 @@ q3a2.addEventListener("click", disableq3);
 q3a3.addEventListener("click", disableq3);
 q3a4.addEventListener("click", disableq3);
 
-
+restart.addEventListener("click", restartQuiz);
 
 var result = document.getElementById("result");
 //#TODO: Add Event Listeners to your answer choice variables.
@@ -132,12 +135,13 @@ function disableq4() {
   document.getElementById("q4a3").disabled = true;
   document.getElementById("q4a4").disabled = true;
 }
+
 function restartQuiz() {
   result.innerHTML = "Your result is...";
-  instagramScore == 0;
-  snapchatScore == 0;
-  tiktokScore == 0;
-  twitterScore == 0;
+  PopScore == 0;
+  RockScore == 0;
+  CountryScore == 0;
+  JazzScore == 0;
   questionCount == 0;
   //alert("You restarted the quiz!");
   document.getElementById("q1a1").disabled = false;
@@ -156,4 +160,4 @@ function restartQuiz() {
   document.getElementById("q4a2").disabled = false;
   document.getElementById("q4a3").disabled = false;
   document.getElementById("q4a4").disabled = false;
-  
+}
