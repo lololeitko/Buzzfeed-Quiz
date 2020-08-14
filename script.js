@@ -23,6 +23,23 @@ var q3a2 = document.getElementById("q3a2");
 var q3a3 = document.getElementById("q3a3");
 var q3a4 = document.getElementById("q3a4");
 
+q1a1.addEventListener("click", disableq1);
+q1a2.addEventListener("click", disableq1);
+q1a3.addEventListener("click", disableq1);
+q1a4.addEventListener("click", disableq1);
+
+q2a1.addEventListener("click", disableq2);
+q2a2.addEventListener("click", disableq2);
+q2a3.addEventListener("click", disableq2);
+q2a4.addEventListener("click", disableq2);
+
+q3a1.addEventListener("click", disableq3);
+q3a2.addEventListener("click", disableq3);
+q3a3.addEventListener("click", disableq3);
+q3a4.addEventListener("click", disableq3);
+
+
+
 var result = document.getElementById("result");
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", Rock);
@@ -90,3 +107,53 @@ function Country() {
     updateResult();
   }
 }
+
+function disableq1() {
+  document.getElementById("q1a1").disabled = true;
+  document.getElementById("q1a2").disabled = true;
+  document.getElementById("q1a3").disabled = true;
+  document.getElementById("q1a4").disabled = true;
+}
+function disableq2() {
+  document.getElementById("q2a1").disabled = true;
+  document.getElementById("q2a2").disabled = true;
+  document.getElementById("q2a3").disabled = true;
+  document.getElementById("q2a4").disabled = true;
+}
+function disableq3() {
+  document.getElementById("q3a1").disabled = true;
+  document.getElementById("q3a2").disabled = true;
+  document.getElementById("q3a3").disabled = true;
+  document.getElementById("q3a4").disabled = true;
+}
+function disableq4() {
+  document.getElementById("q4a1").disabled = true;
+  document.getElementById("q4a2").disabled = true;
+  document.getElementById("q4a3").disabled = true;
+  document.getElementById("q4a4").disabled = true;
+}
+function restartQuiz() {
+  result.innerHTML = "Your result is...";
+  instagramScore == 0;
+  snapchatScore == 0;
+  tiktokScore == 0;
+  twitterScore == 0;
+  questionCount == 0;
+  //alert("You restarted the quiz!");
+  document.getElementById("q1a1").disabled = false;
+  document.getElementById("q1a2").disabled = false;
+  document.getElementById("q1a3").disabled = false;
+  document.getElementById("q1a4").disabled = false;
+  document.getElementById("q2a1").disabled = false;
+  document.getElementById("q2a2").disabled = false;
+  document.getElementById("q2a3").disabled = false;
+  document.getElementById("q2a4").disabled = false;
+  document.getElementById("q3a1").disabled = false;
+  document.getElementById("q3a2").disabled = false;
+  document.getElementById("q3a3").disabled = false;
+  document.getElementById("q3a4").disabled = false;
+  document.getElementById("q4a1").disabled = false;
+  document.getElementById("q4a2").disabled = false;
+  document.getElementById("q4a3").disabled = false;
+  document.getElementById("q4a4").disabled = false;
+  
